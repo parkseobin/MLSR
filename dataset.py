@@ -111,8 +111,8 @@ class Dataset(object):
             maml_hr_img = self.choose_random_image(test)
 
             # patch size on HR image
-            if(maml_hr_img.size[1] < self.patch_size or maml_hr_img.size[0] < self.patch_size):
-                return self.next(self, test)
+            if(maml_hr_img.size[1] <= self.patch_size or maml_hr_img.size[0] <= self.patch_size):
+                return self.next(test)
 
             left = np.random.randint(maml_hr_img.size[0] - self.patch_size)
             upper = np.random.randint(maml_hr_img.size[1] - self.patch_size)
