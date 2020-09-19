@@ -19,13 +19,13 @@ pip install -i requirements.txt
 
 #### Training with Urban100 dataset
 
-* Download Urban100 dataset from [link](https://github.com/jbhuang0604/SelfExSR)
+* Download Urban100 dataset [here](https://github.com/jbhuang0604/SelfExSR)
 * Set Urban100 dataset directory name to `Urban100` and run `./split_urban100.sh`
-* Download IDN pretrained weights `checkpoint_x2` from [link](https://github.com/Zheng222/IDN-tensorflow)
+* Download IDN pretrained weights `checkpoint_x2` [here](http://vllab.ucmerced.edu/wlai24/LapSRN/)
 * Start training
 
 ```console
-foo@bar:~/MLSR$ python main.py --param-restore-path checkpoint_x2 --param-save-path mlsr_test_parameter
+python main.py --param-restore-path checkpoint_x2 --param-save-path mlsr_test_parameter
 ```
 
 * You can also train with other dataset by using `--train-dataset` flag.
