@@ -19,9 +19,9 @@ pip install -i requirements.txt
 
 #### Training with Urban100 dataset
 
-* Download Urban100 dataset [here](https://github.com/jbhuang0604/SelfExSR)
+* Download Urban100 dataset [here](http://vllab.ucmerced.edu/wlai24/LapSRN/)
 * Set Urban100 dataset directory name to `Urban100` and run `./split_urban100.sh`
-* Download IDN pretrained weights `checkpoint_x2` [here](http://vllab.ucmerced.edu/wlai24/LapSRN/)
+* Download IDN pretrained weights `checkpoint_x2` [here](https://github.com/Zheng222/IDN-tensorflow)
 * Start training
 
 ```console
