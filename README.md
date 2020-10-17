@@ -35,11 +35,12 @@ python main.py --param-restore-path checkpoint_x2 --param-save-path mlsr_test_pa
 
 If you find MLSR helpful, please consider citing our paper:
 
-    @article{park2020fast,
+```bibtex
+@article{park2020fast,
     title={Fast Adaptation to Super-Resolution Networks via Meta-Learning},
     author={Park, Seobin and Yoo, Jinsu and Cho, Donghyeon and Kim, Jiwon and Kim, Tae Hyun},
-    journal={arXiv preprint arXiv:2001.02905},
+    journal={ECCV},
     year={2020}
-    }
+}
+```
 
-Citation to be updated to ECCV2020 version.
